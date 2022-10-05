@@ -1,1 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.white {
+    color: white;
+}
+
+header {
+    background-color: rgb(89,191,194);
+    height: 80vh;
+    
+}
+
+
+.container {
+    
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.navigation li {
+    padding: 0.5em;
+    display: inline;
+    font-weight: 600;
+}
+
+.navigation li:last-of-type {
+    padding-right: 0px;
+}
+
+.brand {
+    padding: 0.5em;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.punch {
+    height: 80vh;
+    position: relative;
+    top: -600px;
+    margin-bottom: -600px;
+    background-image: url('../../assets/media/hero.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+button {
+    padding: 1em 2.5em;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.trial {
+    margin-top: 2em;
+    color: rgb(75,90,136);
+    border: none;
+}
