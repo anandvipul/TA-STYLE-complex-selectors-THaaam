@@ -1,92 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-html, body {
-    font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+html,
+body {
+  font-family: Inter, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-
-
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 
 header {
-    background-color: rgb(89,191,194);
-    height: 80vh;
-    
+  background-color: rgb(89, 191, 194);
+  height: 80vh;
 }
 
-
 .container {
-    
-    width: 80vw;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
+  width: 80vw;
+  margin: 0 auto;
+
+  padding: 1em;
 }
 
 .navigation li {
-    padding: 0.5em;
-    display: inline;
-    font-weight: 600;
+  padding: 0.5em;
+  display: inline;
+  font-weight: 600;
 }
 
 .navigation li:last-of-type {
-    padding-right: 0px;
+  padding-right: 0px;
 }
 
 .brand {
-    padding: 0.5em;
-    font-weight: 700;
-    font-size: 2em;
+  padding: 0.5em;
+  font-weight: 700;
+  font-size: 2em;
 }
 
-
 h1 {
-    font-size: 3.5em;
-    font-weight: 700;
+  font-size: 3.5em;
+  font-weight: 700;
 }
 
 .punch {
-    height: 80vh;
-    position: relative;
-    top: -600px;
-    margin-bottom: -600px;
-    background-image: url('../../assets/media/hero.png');
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+  height: 80vh;
+  position: relative;
+  top: -600px;
+  margin-bottom: -600px;
+  background-image: url("../../assets/media/hero.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 button {
-    padding: 1em 2.5em;
-    font-size: 1.2em;
-    font-weight: 500;
-    border-radius: 10px;
+  padding: 1em 2.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-radius: 10px;
 }
 
 .trial {
-    margin-top: 2em;
-    color: rgb(75,90,136);
-    border: none;
+  margin-top: 2em;
+  color: rgb(75, 90, 136);
+  border: none;
+}
+
+.file div a {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 800;
+  color: rgb(189, 201, 225);
+}
+
+.file div a img {
+  padding: 0.4em;
+  width: 1.8em;
+}
+
+/* .file div a img:first-of-type {
+    padding-left: 0px;
+} */
+
+.file div:last-of-type {
+  padding-right: 0px;
+}
+
+.file div:first-of-type {
+  padding-left: 0px;
+}
+
+hr {
+  width: 80vw;
+  height: 2px;
+  border: 1px solid rgb(207, 218, 247);
+}
+
+.monitor .article {
+  flex: 0 1 38%;
+  line-height: 2em;
+}
+
+.monitor {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.monitor .article h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  color: rgb(40, 60, 124);
+  margin-bottom: 1em;
+}
+
+.monitor .article p {
+  width: 75%;
+  margin-bottom: 2em;
+  color: rgb(141, 157, 190);
+  font-weight: 500;
+  font-size: 1.2em;
 }
