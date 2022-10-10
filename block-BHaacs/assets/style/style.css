@@ -158,3 +158,45 @@ hr {
   font-weight: 500;
   font-size: 1.2em;
 }
+
+.weekly-table {
+  margin: 5em auto;
+}
+
+.weekly-table h2 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: rgb(40,63,124);
+  margin-bottom: 1em;
+}
+
+.weekly-table table {
+  text-align: center;
+}
+
+.weekly-table table th{
+  font-size: 1.5em;
+  font-weight: 500;
+  background-color: rgb(61,159,160);
+  padding: 0.4em;
+  color: white;
+  
+}
+
+.weekly-table table th:first-of-type {
+  border-radius: 0.5em 0 0 0;
+}
+
+.weekly-table table th:last-of-type {
+  border-radius: 0 0.5em 0 0;
+}
+
+.weekly-table table td {
+  padding: 1em 0;
+  border: 1px solid rgb(213,212,213);
+}
+
+.weekly-table table tr:nth-child(2n) {
+  background-color: rgb(213,229,229);
+}
