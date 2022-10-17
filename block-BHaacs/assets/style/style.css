@@ -53,7 +53,6 @@ header {
 .container {
   width: 80vw;
   margin: 0 auto;
-
   padding: 1em;
 }
 
@@ -199,4 +198,56 @@ hr {
 
 .weekly-table table tr:nth-child(2n) {
   background-color: rgb(213,229,229);
+}
+
+.monthly-slider {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  background-color: rgb(186,236,237);
+  border-radius: 10px;
+}
+
+.monthly-slider .ball {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(89,191,194);
+  z-index: 14;
+}
+
+.toggle {
+  margin: 1em ;
+}
+
+.toggle > * {
+  margin: 0 0.5em;
+}
+
+.toggle h3{
+  display: inline-block;
+
+}
+
+.toggle input {
+  display: none;
+}
+
+.join h2{
+ color: rgb(54,74,133);
+ font-size: 30px;
+ font-weight: 600;
+ text-align: center;
+}
+
+.col-head h2{
+ color: rgb(40,60,124);
+ font-size: 30PX;
+ font-weight: 600;
+}
+
+
+.price.basic::before {
+  content: "$";
 }
