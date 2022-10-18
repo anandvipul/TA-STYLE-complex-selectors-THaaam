@@ -247,7 +247,109 @@ hr {
  font-weight: 600;
 }
 
-
-.price.basic::before {
-  content: "$";
+.col-head >p{
+  color: rgb(102,124,170);
+  margin: 1.5em 0;
+  text-align: center;
 }
+
+
+.prefix {
+  color: rgb(89,191,194);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.price {
+align-items: flex-end;
+margin-bottom: 1.5em;
+}
+
+.price p {
+  color: rgb(102,124,170);
+}
+
+.price::before {
+  content: "$";
+  color: rgb(89,191,194);
+  font-weight: 600;
+}
+
+.features li{
+  margin: 1em 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+.features li i{
+  margin: 0.8em;
+  color: rgb(110,198,202);
+}
+
+li i.fa-xmark {
+  color: red;
+  padding-right: 0.5em;
+}
+
+.get-started-white {
+  padding: 0.5em 2.5em;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.get-started-green {
+  padding: 0.5em 2.5em;
+  width: 100%;
+  color: white;
+  background-color: rgb(89,191,194);
+  border: none;
+}
+
+.trial-section {
+  width: 100%;
+  text-align: center;
+  /* height: 200px; */
+  background-color: rgb(89,191,194);
+  width: 80%;
+  border-radius: 30px;
+}
+
+.trial-section h2 {
+  padding: 1em;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.trial-section button {
+  width: 20%;
+  margin: 2em 0;
+}
+
+.flex-20 {
+  flex: 0 1 20%;
+  color: rgb(102,124,170);
+}
+
+.flex-20 ul > li {
+  margin: 0.2em 0;
+}
+
+
+.footer-icons li{
+  display: inline-block;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.footer-icons li> i::before {
+  
+  border-radius: 1em;
+  padding: 0.5em;
+  background-color: rgb(89,191,194);
+  
+  color: white;
+}
+
