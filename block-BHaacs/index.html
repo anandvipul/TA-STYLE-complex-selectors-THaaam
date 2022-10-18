@@ -7,6 +7,10 @@
         <title>Complex Selectors</title>
         <link rel="stylesheet" href="assets/style/css-reset.css">
         <link rel="stylesheet" href="assets/style/style.css">
+        <script
+      src="https://kit.fontawesome.com/375c9a33df.js"
+      crossorigin="anonymous"
+    ></script>
     </head>
     <body>
         <header>
@@ -148,21 +152,21 @@
                 <article>
                     <div class="col-head flex-col justify-content-space-between align-items-center">
                         <h2>Basic</h2>
-                        <p>It is Long established fact that a reader will be distracted by a readable</p>
-                        <div>
-                            <span>$48</span>
-                            <p>/Month</p>
+                        <p>It is Long established fact that a reader<br> will be distracted by a readable</p>
+                        <div class="price basic flex">
+                            <span class="prefix">48</span>
+                            <p class="time">/Month</p>
                         </div>
 
                     </div>
-                    <ul>
-                        <li>50 courses a day</li>
-                        <li>4 forums a month</li>
-                        <li>16 chapters a day</li>
-                        <li>Private lessons once a week</li>
-                        <li>Get Weekly reward</li>
+                    <ul class="features features-basic">
+                        <li><i class="fa-solid fa-check"></i>50 courses a day</li>
+                        <li><i class="fa-solid fa-check"></i>4 forums a month</li>
+                        <li><i class="fa-solid fa-check"></i>16 chapters a day</li>
+                        <li><i class="fa-solid fa-xmark"></i>Private lessons once a week</li>
+                        <li><i class="fa-solid fa-xmark"></i></i>Get Weekly reward</li>
                         <li>
-                            <button>Get Started</button>
+                            <button class="get-started-white">Get Started</button>
                         </li>
                     </ul>
                 </article>
@@ -170,43 +174,43 @@
                 <article>
                     <div class="col-head flex-col justify-content-space-between align-items-center">
                         <h2>Most Popular</h2>
-                        <p>It is Long established fact that a reader will be distracted by a readable</p>
-                        <div class="price basic">
-                            <span>$48</span>
-                            <p>/Month</p>
+                        <p>It is Long established fact that a reader <br> will be distracted by a readable</p>
+                        <div class="price popular flex">
+                            <span class="prefix">48</span>
+                            <p class="time">/Month</p>
                         </div>
                     </div>
 
-                    <ul>
-                        <li>50 courses a day</li>
-                        <li>4 forums a month</li>
-                        <li>16 chapters a day</li>
-                        <li>Private lessons once a week</li>
-                        <li>Get Weekly reward</li>
+                    <ul class="features features-basic">
+                        <li><i class="fa-solid fa-check"></i>50 courses a day</li>
+                        <li><i class="fa-solid fa-check"></i>4 forums a month</li>
+                        <li><i class="fa-solid fa-check"></i>16 chapters a day</li>
+                        <li><i class="fa-solid fa-check"></i>Private lessons once a week</li>
+                        <li><i class="fa-solid fa-check"></i>Get Weekly reward</li>
                         <li>
-                            <button>Get Started</button>
+                            <button class="get-started-green">Get Started</button>
                         </li>
                     </ul>
                 </article>
             </section>
 
-            <section>
+            <section class="trial-section container">
                 <h2>Start Your 30 Days Trial Now!</h2>
-                <button>Get Started</button>
+                <button class="get-started-white">Get Started</button>
             </section>
 
-            <footer>
-                <div>
-                    <h2>TrackL</h2>
+            <footer class="container flex">
+                <div class="flex-20">
+                    <h2 class="brand">TrackL</h2>
                     <p>Far far away, behind the word mountains, far from the.</p>
-                    <ul>
-                        <li>facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
+                    <ul class="footer-icons">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
                     </ul>
                 </div>
 
-                <div>
+                <div class="flex-20">
                     <h2>Features</h2>
                     <ul>
                         <li>
@@ -218,7 +222,7 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="flex-20">
                     <h2>Support</h2>
                     <ul>
                         <li>About Us</li>
@@ -228,7 +232,7 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="flex-20">
                     <h2>Contact</h2>
                     <ul>
                         <li>hello@trackl.io</li>
